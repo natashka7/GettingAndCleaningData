@@ -19,3 +19,14 @@ run_analysis.R
 
 Output:
 tidyDataSet_Avg.txt
+
+Running the script:
+The script assumes that the dataset was downloaded and extracted.
+
+The script performes following:
+* Load both test and train data
+* Load the features and activity labels
+* Extract the mean and standard deviation column names and data
+* Process the data
+* Merge and creates data set 
+* The result is saved as "./tidyDataSet_Avg.txt"
