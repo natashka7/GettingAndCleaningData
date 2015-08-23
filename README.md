@@ -2,7 +2,7 @@
 Getting and Cleaning Data project repo
 
 
-Assignment:
+###Assignment
 Create one R script called run_analysis.R that does the following:
 
 1. Merges the training and the test sets to create one data set.
@@ -20,7 +20,8 @@ run_analysis.R
 Output:
 tidyDataSet_Avg.txt
 
-Running the script:
+###Running the script:
+
 The script assumes that the dataset was downloaded and extracted.
 
 The script performes following:
@@ -28,5 +29,5 @@ The script performes following:
 * Load the features and activity labels
 * Extract the mean and standard deviation column names and data
 * Process the data
-* Merge and creates data set 
+* Merge and create data set 
 * The result is saved as "./tidyDataSet_Avg.txt"
