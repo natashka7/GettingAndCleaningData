@@ -1,5 +1,16 @@
 #Code Book
 
+Source dataset:
+https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
+
+Script:
+run_analysis.R
+
+Output:
+tidyDataSet_Avg.txt
+
+The result set  is a 180x68 data table where the first column contains subject IDs, the second column contains activity names, and then the averages for each of the 66 attributes are in columns 3...68. There are 30 subjects and 6 activities - 180 rows in the result data set with averages.
+
 ###Data columns:
 
 * Subject
